@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "globals" : {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readable"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "rules": {
+    }
+}
